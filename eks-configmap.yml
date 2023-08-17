@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+data:
+  BACKEND_SERVICE_HOST: "backend-service.default.svc.cluster.local"
+  BACKEND_SERVICE_PORT: "80"
